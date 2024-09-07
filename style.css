@@ -31,5 +31,22 @@ header {
   text-decoration: none;
   border-radius: 5px;
 }
+/* Menggunakan flexbox untuk section hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('bg.jpg');
+  background-size: cover;
+}
 
+/* Menggunakan grid untuk section about */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 4rem;
+}
 /* Tambahkan style untuk bagian lain sesuai kebutuhan */
